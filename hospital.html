@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            position: relative;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="200">
+<!--mobile view-->
+<div class="mobile-logo text-center">
+    <a href="index.html">
+        <img src="assets/images/logo.png" alt="">
+    </a>
+</div>
+<div class="mobile_view">
+    <div class="mobile-menu-area">
+        <ul class="mobile-menu">
+            <li><i class="fa fa-times" id="close"></i></li>
+            <li data-toggle="collapse" href="#Cancer_care"><a href="#">Cancer care <i class="fa fa-angle-down"></i></a></li>
+            <div id="Cancer_care" class="collapse">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <div data-toggle="collapse" data-target="#Diagnostics">
+                                <i class="fa fa-angle-down"></i>
+                                <span class="card_header">Diagnostics</span>
+                            </div>
+                        </h5>
+                    </div>
+                    <div id="Diagnostics" class="collapse" data-parent="#Cancer_care">
+                        <div class="card-body">
+                            <ul>
+                                <li><a href="#">sub item</a></li>
+                                <li><a href="#">sub item</a></li>
+                                <li><a href="#">sub item</a></li>
+                                <li><a href="#">sub item</a></li>
+                                <li><a href="#">sub item</a></li>
+                                <li><a href="#">sub item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <div data-toggle="collapse" data-target="#treatment">
+                                <i class="fa fa-angle-down"></i>
+                                <span class="card_header">Treatment</span>
+                            </div>
+                        </h5>
+                    </div>
+                    <div id="treatment" class="collapse" data-parent="#Cancer_care">
+                        <div class="card-body">
+                            <ul>
+                                <li><a href="#">sub item</a></li>
+                                <li><a href="#">sub item</a></li>
+                                <li><a href="#">sub item</a></li>
+                                <li><a href="#">sub item</a></li>
+                                <li><a href="#">sub item</a></li>
+                                <li><a href="#">sub item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <li><a href="#">Cardiology</a></li>
+            <li><a href="#">Orthopedics</a></li>
+            <li><a href="#">Dentistry</a></li>
+            <li><a href="#">Aesthetic Medicine</a></li>
+            <li><a href="#">Reproductive Medicine</a></li>
+            <li><a href="#">Other</a></li>
+        </ul>
+    </div>
+    <div class="sticky-area-mobile-view">
+        <div class="mobile-menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="phone-btn">
+            <i class="fa fa-mobile"></i>+971  52 345 2645
+        </div>
+    </div>
+</div>
+<!--header start-->
+<header id="top">
+    <!--top bar start-->
+    <section class="top-bar-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <div class="contact-content">
+                            <p>Do you have any questions?<br><span>+971  52 345 2645</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="top-menu">
+                        <ul>
+                            <li>
+                                <a href="#" id="language-currency">english - $ <i class="fa fa-angle-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" id="about">about <i class="fa fa-angle-down"></i></a>
+                            </li>
+                            <li><a href="#" class="special">join our network</a></li>
+                            <li><a href="#" class="special" data-toggle="modal" data-target="#getFreeQuoteModal">get a
+                                free quote</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--top menu 'about' item dropdown start-->
+    <ul class="about-dropdown">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">How it works</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Second Opinion</a></li>
+        <li><a href="#">Business</a></li>
+        <li class="cross-icon">close x</li>
+    </ul>
+    <!--top menu 'about' item dropdown end-->
+    <!--top menu 'language' item dropdown start-->
+    <div class="language-currency-choose-option-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="title-caption">
+                                    <p>language & currency</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <select class="form-control" id="language">
+                                        <option>English</option>
+                                        <option>Deutsch</option>
+                                        <option>Français</option>
+                                        <option>Français</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <select class="form-control" id="currency">
+                                        <option>USD - $</option>
+                                        <option>EUR - €</option>
+                                        <option>GBP - £</option>
+                                        <option>THB - ฿</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="update-btn">
+                                    <a href="#">update</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="cross-icon">close x</div>
+    </div>
+    <!--top menu 'language' item dropdown end-->
+    <!--get free quote Modal start -->
+    <div class="modal fade" id="getFreeQuoteModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="sort-desctiption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="desc-cont text-center">
+                                        <h4>Tell us what you are looking for </h4>
+                                        <p>We'll assist you with finding a clinic to suit your budget and needs. We've
+                                            helped thousands of patients to receive affordable, high-quality medical
+                                            care abroad.</p>
+                                        <ul>
+                                            <li><i class="fa fa-check"></i>Get your questions answered</li>
+                                            <li><i class="fa fa-check"></i>Get your questions answered</li>
+                                            <li><i class="fa fa-check"></i>Get your questions answered</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-form-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="modal-form">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-group text-right">
+                                                        <label for="procedure">Procedure you are interested in</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group area-wrap">
+                                                        <input type="text" class="form-control" id="procedure">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <i class="fa fa-check"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-group text-right">
+                                                        <label for="country">Your destination country</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group area-wrap">
+                                                        <select class="form-control" id="country">
+                                                            <option selected>Choose a country</option>
+                                                            <option>India</option>
+                                                            <option>Pakisthan</option>
+                                                            <option>United State</option>
+                                                            <option>United Kingdom</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <i class="fa fa-check"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-group text-right">
+                                                        <label for="planing-time">When are you planning on traveling?</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group area-wrap">
+                                                        <select class="form-control" id="planing-time">
+                                                            <option>Please select a date</option>
+                                                            <option>within a week</option>
+                                                            <option>within a month</option>
+                                                            <option>within 3 month</option>
+                                                            <option>within a year</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <i class="fa fa-check"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-group text-right">
+                                                        <label>Which statement best describes you?</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group area-wrap">
+                                                        <label class="radio-inline">
+                                                            <input type="radio" name="optradio"> I just started researching, and looking for general information
+                                                        </label>
+                                                        <label class="radio-inline">
+                                                            <input type="radio" name="optradio"> I am in the process of choosing the right clinic
+                                                        </label>
+                                                        <label class="radio-inline">
+                                                            <input type="radio" name="optradio"> I am ready to book an appointment
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <i class="fa fa-check"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-group text-right">
+                                                        <label for="message">Your message to the Medigo Care Team </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group area-wrap">
+                                                        <textarea class="form-control" id="message" rows="3"></textarea>
+                                                        <div class="attach-file">
+                                                            <p><i class="fa fa-paperclip"></i> <a href="#">Add a file to share with the clinic</a>
+                                                                <br>
+                                                                <span>(medical record, x-rays, pictures)</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <i class="fa fa-check"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-10 text-right">
+                                                    <div class="submit-btn">
+                                                        <a href="#">Next: your contact details</a>
+                                                        <p><i class="fa fa-lock"></i> Your connection is SSL certified. No information will be submitted through this form until you review and accept MEDIGO’s data policy in the next step.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--get free quote Modal end -->
+    <!--top bar end-->
+    <!--main menu start-->
+    <section class="main-menu-section">
+        <div class="container">
+            <div class="row col-12">
+                <div class="main-navigation">
+                    <ul id="nav">
+                        <li class="dropdown-mega-menu active">
+                            <a href="#">Cancer care <i class="fa fa-angle-down"></i></a>
+                            <div class="mega-menu">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="widget-one text-left">
+                                                <div class="mega-menu-title">
+                                                    <h3>Cardio-Vascular diseases</h3>
+                                                </div>
+                                                <div class="mega-menu-content">
+                                                    <p>
+                                                        Coronary heart disease, Valvular heart disease, Congenital heart
+                                                        disease, Cardiomyopathy, Aneurysm
+                                                    </p>
+                                                    <p class="mt-2" style="color: #333">All Cardiology Clinics </p>
+                                                    <p class="mt-4" style="color: #333">All Cardiology Treatments </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="widget-two text-left">
+                                                <div class="mega-menu-title">
+                                                    <h3>Diagnostics</h3>
+                                                </div>
+                                                <div class="mega-menu-content">
+                                                    <ul>
+                                                        <li><a href="#">Dentistry</a></li>
+                                                        <li><a href="#">All-on-4</a></li>
+                                                        <li><a href="#">Bone Graft</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="widget-three text-left">
+                                                <div class="mega-menu-title">
+                                                    <h3>Treatments</h3>
+                                                </div>
+                                                <div class="mega-menu-content">
+                                                    <ul>
+                                                        <li><a href="#">Bone Graft</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="widget-four text-center">
+                                                <div class="mega-menu-add-title">
+                                                    <h3>Second Opinion</h3>
+                                                </div>
+                                                <div class="mega-menu-add-content"
+                                                     style="background-image: url('assets/images/mega-menu-add.jpg');">
+                                                    <div class="overlay-bg"></div>
+                                                    <p>Hungary: Affordable high quality Dentistry</p>
+                                                    <a href="#">Discover the clinics</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Cardiology <i class="fa fa-angle-down"></i></a></li>
+                        <li><a href="#">Orthopedics <i class="fa fa-angle-down"></i></a></li>
+                        <li><a href="#">Dentistry <i class="fa fa-angle-down"></i></a></li>
+                        <li><a href="#">Aesthetic Medicine <i class="fa fa-angle-down"></i></a></li>
+                        <li><a href="#">Reproductive Medicine <i class="fa fa-angle-down"></i></a></li>
+                        <li><a href="#">Other <i class="fa fa-angle-down"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--main menu end-->
+</header>
+<!--header end-->
+
+<!--breadcrumb section start-->
+<section class="breadcrumb-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcrumb-area">
+                    <ul>
+                        <li><a href="#">Home <i class="fa fa-angle-right"></i></a></li>
+                        <li class="active"><a href="#">Bumrungrad International Hospital </a></li>
+                    </ul>
+                </div>
+                <div class="header-cont hospital">
+                    <h1>Bumrungrad International Hospital</h1>
+                </div>
+                <div class="review">
+                    <ul>
+                        <li><span style="color: gray; padding-left: 10px;">Thailand, Bangkok</span></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><span style="color: gray; padding-left: 10px;">0 reviews</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--breadcrumb section end-->
+
+<div class="hospital-content-section" style="background: #eceff4;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-8">
+                <!--hospital featured images section start-->
+                <section class="hospital-featured-images-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="hospital-feat-img-slider owl-carousel">
+                                    <div class="single-img">
+                                        <img src="assets/images/hospital-feat-img-1.jpg" alt="">
+                                    </div>
+                                    <div class="single-img">
+                                        <img src="assets/images/hospital-feat-img-2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="navigation-control navbar">
+                                    <ul>
+                                        <li class="active"><a class="nav-link" href="#overview">overview</a></li>
+                                        <li><a class="nav-link" href="#procedures">procedures</a></li>
+                                        <li><a class="nav-link" href="#staff">staff</a></li>
+                                        <li><a class="nav-link" href="#reviews">reviews</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+                <!--hospital featured images section end-->
+                <!--overview section start-->
+                <section class="overview-section pb-3" id="overview">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="overview">
+                                    <div class="hospital-page-section-title">
+                                        <h2>overview</h2>
+                                    </div>
+                                    <div class="hospital-page-content">
+                                        <p>The renowned Bumrungrad Hospital is JCI-accredited and treats 1.1 million
+                                            patients annually,
+                                            including 520,000 international patients.</p>
+                                        <p>The hospital has over 80 clinical specialities and subspecialties. The
+                                            expertise of the doctors
+                                            and high quality of the hospital’s facilities is backed up by a range of
+                                            specialist
+                                            technologies. These include cutting edge devices like the Vagus Nerve
+                                            Stimulation, known as a
+                                            “pacemaker for the brain”, which is surgically implanted in the chest
+                                            and connected to the left
+                                            vagus nerve, preventing seizures by sending regular, mild pulses of
+                                            electrical energy to the
+                                            brain. Another minimally invasive procedure, SEEG, uses electrodes
+                                            placed directly in the brain
+                                            to identify where epileptic seizures start in order to monitor, resect,
+                                            and hopefully improve
+                                            seizures.</p>
+                                        <p>The hospital’s spinal surgery department is also a highlight, using
+                                            techniques like endoscopic
+                                            discectomy and keyhole TILF with 3D computerized navigation, allowing
+                                            for less muscle damage and
+                                            a quicker recovery after surgery.</p>
+                                        <p>Furthermore, the hospital can organize hotel booking, as well as both
+                                            airport pickup and car
+                                            rental assistance. Other services offered by the hospital include free
+                                            WiFi, a pharmacy,
+                                            laundry, dry cleaning, and interpreter services. In addition, Bumrungrad
+                                            Hospital is aware that
+                                            international travellers may have limited time, and always works with
+                                            patients to ensure that a
+                                            suitable timeline can be found.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--overview section end--><!--location section start-->
+                <section class="location-section pb-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="location">
+                                    <div class="hospital-page-section-title">
+                                        <h2>location</h2>
+                                    </div>
+                                    <div class="hospital-page-content">
+                                        <p>Bumrungrad Hospital is located just 27 km from the Suvamabhumi Airport
+                                            and is accessible via
+                                            public transport or taxi. The nearest train station is the Phloen Chit
+                                            metro, just 700 m
+                                            away.</p>
+                                        <p>The hospital is located in Bangkok, the capital of Thailand. The city is
+                                            famous for its
+                                            vibrant street life and ornate shrines, as well as its commercial and
+                                            entertainment
+                                            opportunities.</p>
+                                        <p>The Grand Palace is one of the most popular tourist attractions in
+                                            Bangkok. It has been the
+                                            official residence of the King of Siam since the 18th century and
+                                            attracts visitors with its
+                                            tall spires and intricate design work. It is just 12 km away from the
+                                            hospital.</p>
+                                        <p>Another popular visitor attraction is the Vimanmek Mansion, a former
+                                            royal palace made of
+                                            entirely golden teak which also houses the National Heritage Museum. It
+                                            is located just 8 km
+                                            away.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--location section end--><!--language section start-->
+                <section class="language-section pb-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="language">
+                                    <div class="hospital-page-section-title">
+                                        <h2>Languages spoken</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--language section end-->
+                <!--services section start-->
+                <section class="services-section pb-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="services">
+                                    <div class="hospital-page-section-title">
+                                        <h2>Services</h2>
+                                    </div>
+                                    <div class="hospital-page-content">
+                                        <ul>
+                                            <li><i class="fa fa-phone"></i>Online doctor consultation.</li>
+                                            <li><i class="fa fa-phone"></i>Phone in the room</li>
+                                            <li><i class="fa fa-wifi"></i>Free Wifi</li>
+                                            <li><i class="fa fa-car"></i>Fast Car</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--services section end-->
+                <!--procedure section start-->
+                <section class="procedure-section pb-3" id="procedures">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="procedure">
+                                    <div class="hospital-page-section-title">
+                                        <h2>procedure</h2>
+                                    </div>
+                                    <div class="hospital-page-content procedure">
+                                        <p>7 procedures across 3 specialties</p>
+                                        <ul>
+                                            <li data-toggle="collapse" href="#Oncology"><span class="arrow"></span>Oncology
+                                                <span>(2 procedure)</span></li>
+                                            <div id="Oncology" class="collapse">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5 class="mb-0">
+                                                            <div data-toggle="collapse" data-target="#OncologyOne">
+                                                                <span class="arrow"></span>
+                                                                <span class="card_header">Acute Leukemia Treatment</span>
+                                                                <a href="#" class="accordion-btn">free</a>
+                                                            </div>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="OncologyOne" class="collapse" data-parent="#Oncology">
+                                                        <div class="card-body">
+                                                            <p>Overview:</p>
+                                                            <p>Leukemia is a type of cancer that affects the blood cells
+                                                                in the body. It usually begins in the bone marrow where
+                                                                an abnormality occurs in the white blood cells. Normal
+                                                                blood cells form, divide, and die to make room for new
+                                                                cells. Leukemia disrupts this process and prevents the
+                                                                blood cells from functioning properly.</p>
+                                                            <p><b>Average length of stay abroad:</b>weeks</p>
+                                                            <p>The length of stay abroad will depend on the treatment
+                                                                plan and the patient's response to treatment.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5 class="mb-0">
+                                                            <div data-toggle="collapse" data-target="#OncologyTwo">
+                                                                <span class="arrow"></span>
+                                                                <span class="card_header">Acute Leukemia Treatment</span>
+                                                                <a href="#" class="accordion-btn">free</a>
+                                                            </div>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="OncologyTwo" class="collapse" data-parent="#Oncology">
+                                                        <div class="card-body">
+                                                            <p>Overview:</p>
+                                                            <p>Leukemia is a type of cancer that affects the blood cells
+                                                                in the body. It usually begins in the bone marrow where
+                                                                an abnormality occurs in the white blood cells. Normal
+                                                                blood cells form, divide, and die to make room for new
+                                                                cells. Leukemia disrupts this process and prevents the
+                                                                blood cells from functioning properly.</p>
+                                                            <p><b>Average length of stay abroad:</b>weeks</p>
+                                                            <p>The length of stay abroad will depend on the treatment
+                                                                plan and the patient's response to treatment.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <li data-toggle="collapse" href="#Ophthalmology"><span class="arrow"></span>Ophthalmology
+                                                <span>(2 procedure)</span></li>
+                                            <div id="Ophthalmology" class="collapse">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5 class="mb-0">
+                                                            <div data-toggle="collapse" data-target="#OphthalmologyOne">
+                                                                <span class="arrow"></span>
+                                                                <span class="card_header">Acute Leukemia Treatment</span>
+                                                                <a href="#" class="accordion-btn">free</a>
+                                                            </div>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="OphthalmologyOne" class="collapse"
+                                                         data-parent="#Ophthalmology">
+                                                        <div class="card-body">
+                                                            <p>Overview:</p>
+                                                            <p>Leukemia is a type of cancer that affects the blood cells
+                                                                in the body. It usually begins in the bone marrow where
+                                                                an abnormality occurs in the white blood cells. Normal
+                                                                blood cells form, divide, and die to make room for new
+                                                                cells. Leukemia disrupts this process and prevents the
+                                                                blood cells from functioning properly.</p>
+                                                            <p><b>Average length of stay abroad:</b>weeks</p>
+                                                            <p>The length of stay abroad will depend on the treatment
+                                                                plan and the patient's response to treatment.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5 class="mb-0">
+                                                            <div data-toggle="collapse" data-target="#OphthalmologyTwo">
+                                                                <span class="arrow"></span>
+                                                                <span class="card_header">Acute Leukemia Treatment</span>
+                                                                <a href="#" class="accordion-btn">free</a>
+                                                            </div>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="OphthalmologyTwo" class="collapse"
+                                                         data-parent="#Ophthalmology">
+                                                        <div class="card-body">
+                                                            <p>Overview:</p>
+                                                            <p>Leukemia is a type of cancer that affects the blood cells
+                                                                in the body. It usually begins in the bone marrow where
+                                                                an abnormality occurs in the white blood cells. Normal
+                                                                blood cells form, divide, and die to make room for new
+                                                                cells. Leukemia disrupts this process and prevents the
+                                                                blood cells from functioning properly.</p>
+                                                            <p><b>Average length of stay abroad:</b>weeks</p>
+                                                            <p>The length of stay abroad will depend on the treatment
+                                                                plan and the patient's response to treatment.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <li data-toggle="collapse" href="#Orthopedics"><span class="arrow"></span>Orthopedics
+                                                <span>(3 procedure)</span></li>
+                                            <div id="Orthopedics" class="collapse">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5 class="mb-0">
+                                                            <div data-toggle="collapse" data-target="#OrthopedicsOne">
+                                                                <span class="arrow"></span>
+                                                                <span class="card_header">Acute Leukemia Treatment</span>
+                                                                <a href="#" class="accordion-btn">free</a>
+                                                            </div>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="OrthopedicsOne" class="collapse"
+                                                         data-parent="#Orthopedics">
+                                                        <div class="card-body">
+                                                            <p>Overview:</p>
+                                                            <p>Leukemia is a type of cancer that affects the blood cells
+                                                                in the body. It usually begins in the bone marrow where
+                                                                an abnormality occurs in the white blood cells. Normal
+                                                                blood cells form, divide, and die to make room for new
+                                                                cells. Leukemia disrupts this process and prevents the
+                                                                blood cells from functioning properly.</p>
+                                                            <p><b>Average length of stay abroad:</b>weeks</p>
+                                                            <p>The length of stay abroad will depend on the treatment
+                                                                plan and the patient's response to treatment.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5 class="mb-0">
+                                                            <div data-toggle="collapse" data-target="#OrthopedicsTwo">
+                                                                <span class="arrow"></span>
+                                                                <span class="card_header">Acute Leukemia Treatment</span>
+                                                                <a href="#" class="accordion-btn">free</a>
+                                                            </div>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="OrthopedicsTwo" class="collapse"
+                                                         data-parent="#Orthopedics">
+                                                        <div class="card-body">
+                                                            <p>Overview:</p>
+                                                            <p>Leukemia is a type of cancer that affects the blood cells
+                                                                in the body. It usually begins in the bone marrow where
+                                                                an abnormality occurs in the white blood cells. Normal
+                                                                blood cells form, divide, and die to make room for new
+                                                                cells. Leukemia disrupts this process and prevents the
+                                                                blood cells from functioning properly.</p>
+                                                            <p><b>Average length of stay abroad:</b>weeks</p>
+                                                            <p>The length of stay abroad will depend on the treatment
+                                                                plan and the patient's response to treatment.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5 class="mb-0">
+                                                            <div data-toggle="collapse" data-target="#OrthopedicsThree">
+                                                                <span class="arrow"></span>
+                                                                <span class="card_header">Acute Leukemia Treatment</span>
+                                                                <a href="#" class="accordion-btn">free</a>
+                                                            </div>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="OrthopedicsThree" class="collapse"
+                                                         data-parent="#Orthopedics ">
+                                                        <div class="card-body">
+                                                            <p>Overview:</p>
+                                                            <p>Leukemia is a type of cancer that affects the blood cells
+                                                                in the body. It usually begins in the bone marrow where
+                                                                an abnormality occurs in the white blood cells. Normal
+                                                                blood cells form, divide, and die to make room for new
+                                                                cells. Leukemia disrupts this process and prevents the
+                                                                blood cells from functioning properly.</p>
+                                                            <p><b>Average length of stay abroad:</b>weeks</p>
+                                                            <p>The length of stay abroad will depend on the treatment
+                                                                plan and the patient's response to treatment.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--procedure section end-->
+                <!--staff section start-->
+                <section class="staff-section pb-3" id="staff">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="staff">
+                                    <div class="hospital-page-section-title">
+                                        <h2>staff</h2>
+                                    </div>
+                                    <div class="hospital-page-content">
+                                        <p>The staff at the hospital consists of a well-trained team of medical
+                                            professionals, nurses,
+                                            and general staff. They undergo continuous training, evaluation, and
+                                            quality control to
+                                            ensure patient care is optimized.</p>
+                                        <p>The hospital boasts 900 nurses, resulting in a 1:4 nurse to patient
+                                            ratio. As a high volume
+                                            of international patients are treated at Bumrungrad Hospital, English is
+                                            widely spoken.</p>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="doctor-details">
+                                    <div class="doctor-avatar">
+                                        <img src="assets/images/doctor.png" alt="">
+                                    </div>
+                                    <div class="doctor-info">
+                                        <h3>Dr. Prayuth Tunsuriyawong</h3>
+                                        <ul>
+                                            <li>Specializes in Otolaryngology (Ear, Nose, Throat) and Rhinology
+                                                (Nose and Sinus
+                                                Problems)
+                                            </li>
+                                            <li>Fellowship at Massachusetts Eye and Ear Infirmary, Harvard Medical
+                                                School, USA
+                                            </li>
+                                            <li>Fellowship in Head and Neck Surgery at the University of
+                                                Pennsylvania, USA
+                                            </li>
+                                            <li>Assistant Professor at Madihol University</li>
+                                            <li>Fluent in English and Thai</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="doctor-details">
+                                    <div class="doctor-avatar">
+                                        <img src="assets/images/doctor.png" alt="">
+                                    </div>
+                                    <div class="doctor-info">
+                                        <h3>Dr. Prayuth Tunsuriyawong</h3>
+                                        <ul>
+                                            <li>Specializes in Otolaryngology (Ear, Nose, Throat) and Rhinology
+                                                (Nose and Sinus
+                                                Problems)
+                                            </li>
+                                            <li>Fellowship at Massachusetts Eye and Ear Infirmary, Harvard Medical
+                                                School, USA
+                                            </li>
+                                            <li>Fellowship in Head and Neck Surgery at the University of
+                                                Pennsylvania, USA
+                                            </li>
+                                            <li>Assistant Professor at Madihol University</li>
+                                            <li>Fluent in English and Thai</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--staff section end-->
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <div class="hospital-right-sidebar">
+                    <div class="inquiry-area">
+                        <h1>Your inquiry</h1>
+                        <div class="dentistry">
+                            <h5>Dentistry</h5>
+                            <a href="#">Learn more about Dentistry</a>
+                        </div>
+                        <div class="medicare-btn inquiry">
+                            <a href="#">Request Free quote</a>
+                        </div>
+                        <p><img src="assets/images/info-cdp.png" alt=""> A quote includes a treatment plan and price
+                            estimate.</p>
+                    </div>
+                    <div class="location-area">
+                        <h5>About Bumrungrad International Hospital</h5>
+                        <h6>Location</h6>
+                        <p>33 Sukhumvit Soi 3, กรุงเทพมหานคร 10110, Thailand Bangkok, Thailand</p>
+                        <div class="g-mag">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.756953274359!2d90.37297901432815!3d23.756044994479023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8acb3cd8325%3A0x25f355e8536c9ad5!2sRapa+Plaza!5e0!3m2!1sen!2sbd!4v1558163063873!5m2!1sen!2sbd"></iframe>
+                        </div>
+                        <p><b>Content approved by:</b> Bumrungrad International Hospital </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--back to top section start-->
+<div class="back_to_top_area">
+    <div class="container">
+        <div class="row">
+            <div class="back_to_top">
+                <i class="fa fa-angle-up"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<!--back to top section end-->
+<!--footer section start-->
+<footer style="background: #1F1F1F;">
+    <section class="footer-top-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="hospital-left-widget">
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Registration</a></li>
+                            <li><a href="#">Admin Login</a></li>
+                            <li><a href="#">Clinic Login</a></li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus pariatur quod, eligendi
+                            corrupti, autem ratione earum beatae inventore quas numquam molestias voluptas culpa optio
+                            tempora modi odio, nihil. Recusandae, officia!</p>
+                        <p>Copyright 2019 © Codefix It</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hospital-right-widget">
+                        <div class="social-links mb-3 pt-0" style="float: right;">
+                            <ul class="social-networks square spin-icon">
+                                <li><a href="#" class="icon-linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#" class="icon-twitter"><i class="fa fa-twitch"></i></a></li>
+                                <li><a href="#" class="icon-facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="icon-pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#" class="icon-instagram"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/placeholder-300x120.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+<!--footer section end-->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,526 @@
+/*Medium Layout: 1280*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /*FRONT PAGE START*/
+    ul#nav li a {
+        padding: 15px 5px;
+    }
+
+    /*.mega-menu {
+        left: 0px;
+    }*/
+
+    body {
+        font-size: 15px;
+    }
+
+    .item-content h2 {
+        font-size: 40px;
+    }
+
+    .item-content p {
+        font-size: 22px;
+        line-height: 30px;
+        padding-top: 22px;
+    }
+
+    .medicare-btn a {
+        font-size: 12px;
+    }
+
+    h4 {
+    }
+
+    .clinic-title h4 {
+        font-size: 25px;
+    }
+
+    .find-clinic-content p {
+        font-size: 16px;
+    }
+
+    .featured-destination-content p {
+        font-size: 17px;
+    }
+
+    .widget-two h2 {
+        font-size: 25px;
+    }
+
+    .widget-three h2 {
+        font-size: 25px;
+    }
+
+    .footer-content p {
+        font-size: 17px;
+        padding: 10px 0;
+    }
+
+    /*FRONT PAGE END*/
+    /*HOSPITAL PAGE START*/
+    .hospital-left-widget ul li a {
+        padding: 15px 5px;
+    }
+
+    /*HOSPITAL PAGE END*/
+}
+
+/*Tablet Layout: 768px*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*FRONT PAGE START*/
+    .contact-icon i.fa {
+        font-size: 35px;
+    }
+    .contact-icon {
+        padding-top: 15px;
+    }
+    .contact-content {
+        padding-left: 0;
+        padding-top: 5px;
+    }
+
+    .contact-content p {
+        font-size: 12px;
+    }
+
+    .top-menu ul li a {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .top-menu {
+        padding-top: 16px;
+    }
+
+    .top-menu ul li a.special {
+        padding: 3px;
+    }
+    body {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    ul#nav li a {
+        padding: 5px 3px;
+        font-size: 12px;
+    }
+
+    ul#nav li a i.fa {
+        font-size: 14px;
+    }
+
+    .item-content h2 {
+        font-size: 25px;
+    }
+
+    .item-content p {
+        font-size: 17px;
+        line-height: 26px;
+        padding: 20px 0;
+    }
+
+    .search-area label {
+        font-size: 16px;
+    }
+
+    .single-procedure {
+        margin-bottom: 30px;
+    }
+
+    .clinic-title h4 {
+        font-size: 25px;
+    }
+
+    .help-items ul li i.fa {
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+
+    .featured-destination-content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .footer-content p {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .privacy-menu p {
+        font-size: 14px;
+    }
+
+    .widget-two h2 {
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .widget-three h2 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .sign-up-form input#email {
+        width: 60%;
+    }
+
+    button.sign-up-btn {
+        font-size: 14px;
+        padding: 11px 14px;
+    }
+
+    .footer-logo img {
+        margin-bottom: 0;
+        width: 80%;
+    }
+
+    .social-links ul li a i.fa {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .back-to-top-section a {
+        font-size: 16px;
+    }
+
+    .back-to-top-section a i.fa {
+        font-size: 20px;
+    }
+
+    .find-clinic-content p {
+        line-height: 27px;
+    }
+
+    .mega-menu {
+        left: 0;
+        right: 0;
+        top: 109px !important;
+    }
+
+    .mega-menu-add-content p {
+        font-size: 16px;
+    }
+
+    ul#nav li a {
+        border: none;
+        border-top: 1px dashed #fff;
+    }
+
+    .mega-menu-add-content a:hover {
+        border: none !important;
+        border-top: 1px dashed #fff !important;
+    }
+
+    /*FRONT PAGE END*/
+    /*OPTHALMOLOGY PAGE START*/
+    .ophthalmology-post-thumb {
+        width: 35%;
+    }
+
+    .post-cont {
+        width: 60%;
+    }
+    .left-sidebar.fixed_opthalmology_sidebar {
+        left: -10px;
+    }
+    /*OPTHALMOLOGY PAGE END*/
+    /*HOSPITAL PAGE START*/
+    .medicare-btn.inquiry a {
+        font-size: 16px;
+    }
+    .hospital-right-sidebar.fixed_hospital_sidebar {
+         right: -10px;
+     }
+.single-img{
+    height: 50vh;
+}
+    .dentistry a {
+        font-size: 12px;
+    }
+
+    .hospital-left-widget ul li a {
+        padding: 3px 10px;
+    }
+
+    /*sticky navigation*/
+    .navigation-control.sticky_navigation_control {
+        top: 90px;
+    }
+
+    /*HOSPITAL PAGE END*/
+}
+
+/*Mobile Layout: 320px*/
+@media only screen and (max-width: 767px) {
+    /*FRONT PAGE START*/
+    section.top-bar-section {
+        display: none;
+    }
+
+    body {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    section.main-menu-section {
+        display: none;
+    }
+
+    .item-content h2 {
+        font-size: 25px;
+    }
+
+    .item-content p {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 20px 30px;
+    }
+
+    .search-area label {
+        font-weight: 600;
+    }
+
+    .search-area {
+        text-align: center;
+    }
+
+    .procedure-cat ul li a {
+        font-size: 18px;
+    }
+
+
+    .single-procedure {
+        margin-bottom: 30px;
+    }
+
+    .destination-title-desc h4 {
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .section-padding {
+        padding: 30px 0;
+    }
+
+    .section-title h3 {
+        font-weight: 600;
+    }
+
+    .single-review {
+        margin-bottom: 30px;
+    }
+
+    .find-clinic-content h2 {
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .certification p {
+        padding-bottom: 3px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .single-certificate {
+        width: 49%;
+    }
+    .help-items ul li {
+        width: 45%;
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    .country {
+        padding: 20px 0;
+    }
+
+    .member-content h3 {
+        font-weight: 600;
+    }
+
+    .member-content p {
+        font-size: 16px;
+    }
+
+    button.sign-up-btn {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    .sign-up-form input#email {
+        width: 65%;
+    }
+    .widget-one, .widget-two, .widget-three {
+        padding: 10px 10px 25px 10px;
+        text-align: center;
+    }
+    .widget-two h2, .widget-three h2{
+        font-size: 22px;
+    }
+    .footer-content p span {
+        display: block;
+        font-size: 14px;
+    }
+    .back_to_top i.fa {
+        bottom: 52px;
+    }
+    .services-links ul li a {
+        padding: 5px 0;
+        display: block;
+    }
+
+    /*mobile view*/
+    .sticky-area-mobile-view {
+        display: block;
+    }
+
+    .phone-btn {
+        width: 65%;
+        float: right;
+        line-height: 50px;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    .phone-btn i.fa {
+        font-size: 30px;
+        margin-right: 10px;
+        line-height: inherit;
+    }
+
+    section.footer-bottom-section {
+        padding-bottom: 50px;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
+
+    /*FRONT PAGE END*/
+    /*OPTHALMOLOGY PAGE START*/
+    .ophthalmology-post-thumb {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .post-cont {
+        width: 100%;
+    }
+
+    .left-sidebar {
+        margin-bottom: 30px;
+    }
+    .left-sidebar.sticky_opthalmology_sidebar {
+        position: initial;
+        top: initial;
+        right: initial;
+        width: initial;
+    }
+    .left-sidebar.fixed_opthalmology_sidebar {
+        position: initial;
+        top: initial;
+        right: initial;
+        width: initial;
+    }
+    /*OPTHALMOLOGY PAGE END*/
+    /*HOSPITAL PAGE START*/
+    .breadcrumb-area ul li a {
+        font-size: 14px;
+    }
+    .hospital-right-sidebar.sticky_hospital_sidebar {
+        position: initial;
+        top: initial;
+        right: initial;
+        width: initial;
+    }
+    .hospital-right-sidebar.fixed_hospital_sidebar {
+        position: initial;
+        top: initial;
+        right: initial;
+        width: initial;
+    }
+    .header-cont.hospital h1 {
+        font-size: 25px;
+    }
+
+    .review ul li {
+        font-size: 13px;
+    }
+
+    .navigation-control ul li a {
+        font-size: 14px;
+        padding: 10px 3px;
+    }
+
+    .overview-section {
+        text-align: center;
+    }
+
+    .location-section {
+        text-align: center;
+    }
+
+    .hospital-content-section {
+    }
+
+    .doctor-avatar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .doctor-info {
+        width: 100%;
+    }
+
+    .location-area p {
+        font-size: 16px;
+    }
+
+    .hospital-left-widget {
+        text-align: center;
+    }
+
+    .hospital-right-widget {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .social-links {
+        text-align: center;
+        float: initial !important;
+    }
+
+    .hospital-left-widget ul li a {
+        padding: 8px;
+    }
+
+    span.card_header {
+        font-size: 16px;
+    }
+
+    a.accordion-btn {
+        font-size: 14px;
+    }
+    .navigation-control.sticky_navigation_control{
+        display: none;
+    }
+    /*HOSPITAL PAGE END*/
+}
+
+/*Wide Mobile Layout: 480px*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /*FRONT PAGE START*/
+    body {
+        font-size: 16px;
+    }
+    .sign-up-form input#email {
+        width: 78%;
+    }
+    .footer-logo img {
+        margin-left: 78px;
+    }
+    /*FRONT PAGE END*/
+}

@@ -1,0 +1,1781 @@
+/*
+=============================================================================
+>>>> color variable <<<<
+==============================================================================
+*/
+:root {
+    --theme-color: #0ABEA0;
+}
+
+/*
+=============================================================================
+ 1. DEFAULT STYLE START
+==============================================================================
+*/
+body {
+    font-family: Avenir-Heavy, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding: 50px 0;
+}
+
+.medicare-btn a {
+    background: var(--theme-color);
+    color: #fff;
+    display: inline-block;
+    padding: 8px 20px;
+    border-bottom: 4px solid #067260;
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.medicare-btn a:hover {
+    background: #1ACEB0;
+}
+
+.section-title h3 {
+    padding-bottom: 32px;
+    font-size: 24px;
+    color: #18334e;
+}
+
+/**
+================================================================================
+  1. DEFAULT STYLE END
+================================================================================
+*/
+
+/**
+===================================================================================
+===============================  FRONT PAGE STYLE START  ==========================
+===================================================================================
+ */
+/**
+================================================================================
+ 1. Top Bar style start
+================================================================================
+*/
+.top-bar-section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.logo {
+    width: 32%;
+    padding-top: 8px;
+    display: block;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.contact-icon {
+    display: inline-block;
+    float: left;
+    width: 35px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.contact-icon i.fa {
+    font-size: 50px;
+    color: #333;
+}
+
+.contact-content {
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 18px;
+    float: left;
+}
+
+.contact-content p {
+    color: #999;
+    margin-bottom: 0;
+    font-size: 13px;
+    text-align: center;
+}
+
+.contact-content p span {
+    font-size: 16px;
+    color: #333;
+}
+
+.top-menu {
+    padding-top: 25px;
+}
+
+.top-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.top-menu ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.top-menu ul li a {
+    color: #333;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.top-menu ul li a.special {
+    background: var(--theme-color);
+    color: #fff;
+    border-bottom: 3px solid #067260;
+    padding: 3px 15px;
+    font-size: 13px;
+}
+/*top bar dropdown*/
+ul.about-dropdown {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #ffffff;
+    width: 100%;
+    position: absolute;
+    box-shadow: 0 -2px 5px #ddd;
+    z-index: 9999;
+    display: none;
+}
+ul.about-dropdown li {
+    display: inline-block;
+}
+ul.about-dropdown li.cross-icon {
+    float: right;
+    padding-right: 30px;
+    line-height: 50px;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: gray;
+}
+ul.about-dropdown li a {
+    color: gray;
+    text-transform: capitalize;
+    display: block;
+    padding: 15px;
+    position: relative;
+}
+ul.about-dropdown li a:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 16px;
+    width: 2px;
+    height: 20px;
+    border-left: 2px solid #ddd;
+}
+ul.about-dropdown li:first-child a:after {
+    border: none;
+}
+
+
+.language-currency-choose-option-area {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 0 -2px 5px #ddd;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+}
+.language-currency-choose-option-area .form-group {
+    margin-bottom: 0;
+}
+.title-caption p {
+    margin-bottom: 0;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: var(--theme-color);
+    font-weight: 700;
+    font-size: 15px;
+}
+.update-btn a {
+    color: #fff;
+    background: var(--theme-color);
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+}
+div.cross-icon {
+    display: inline-block;
+    right: 2%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-2%, -50%);
+    cursor: pointer;
+    text-transform: capitalize;
+    color: gray;
+}
+/*modal popup start*/
+.modal-dialog {
+    max-width: 70%;
+}
+
+.modal-form-area {
+    background: #F7F7F7;
+    padding: 50px 0;
+}
+.desc-cont ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.desc-cont ul li {
+    display: inline-block;
+    padding: 0 7px;
+    font-size: 15px;
+}
+.desc-cont ul li i.fa {
+    color: var(--theme-color);
+    padding-right: 3px;
+}
+.desc-cont p {
+    font-size: 15px;
+}
+.desc-cont h4 {
+    text-transform: capitalize;
+}
+.desc-cont {
+    padding-bottom: 35px;
+}
+.modal-body {
+    padding: 0;
+}
+.modal-header {
+    border-bottom: none;
+    padding: 5px 10px;
+}
+.modal-form label {
+    font-weight: 700;
+    color: #333;
+}
+.modal-form i.fa {
+    color: #fff;
+    background: gray;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.form-group.area-wrap{
+    background: #fff;
+    padding: 30px;
+    border: 1px solid var(--theme-color);
+}
+.form-group.area-wrap label {
+    font-weight: 400;
+    color: gray;
+}
+
+.attach-file p {
+    background: none;
+    color: var(--theme-color);
+    font-size: 15px;
+}
+.attach-file p i.fa {
+    background: none;
+    color: var(--theme-color);
+    font-size: 20px;
+}
+.attach-file p span {
+    color: gray;
+    padding-left: 35px;
+}
+.submit-btn a {
+    color: #fff;
+    background: var(--theme-color);
+    display: inline-block;
+    padding: 5px 15px;
+    text-transform: capitalize;
+}
+.submit-btn p {
+    color: gray;
+    line-height: 13px;
+    font-size: 15px;
+}
+/*modal popup end*/
+/*sticky_top_section style*/
+.sticky_top_section {
+    position: fixed;
+    background: #ffffff;
+    z-index: 9999;
+    width: 100%;
+}
+/**
+================================================================================
+ 1. Top Bar style end
+================================================================================
+*/
+/**
+================================================================================
+ 2. main menu style start
+================================================================================
+*/
+/*mobile view start*/
+.mobile-logo {
+    display: none;
+}
+
+.mobile-logo img {
+    width: 100%;
+}
+
+.sticky-area-mobile-view {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    background: var(--theme-color);
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #fff;
+}
+
+.mobile-menu-btn i.fa {
+    font-size: 27px;
+}
+
+.mobile-menu-btn {
+    width: 33%;
+    float: left;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 15px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.sticky-area-mobile-view {
+    display: none;
+}
+
+ul.mobile-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: var(--theme-color);
+    position: fixed;
+    bottom: 50px;
+    left: -100%;
+    z-index: 9999;
+    width: 100%;
+    height: 60%;
+    opacity: 0;
+    overflow: auto;
+    transition: all .5s;
+}
+.card{
+    background: var(--theme-color);
+}
+ul.mobile-menu li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s;
+    display: block;
+    padding: 5px 10px;
+}
+
+ul.mobile-menu li a:focus {
+    outline: none;
+}
+
+ul.mobile-menu li a:hover {
+    color: #000;
+    transition: all .5s;
+}
+
+#close {
+    position: absolute;
+    right: 9px;
+    top: 3px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 2px;
+}
+
+/*mobile view end*/
+.main-menu-section {
+    border-bottom: 1px solid #ddd;
+}
+
+.main-navigation {
+    width: 100%;
+}
+
+ul#nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul#nav li {
+    display: inline-block;
+    /*position: relative;*/
+}
+
+/*ul#nav li.dropdown-mega-menu:hover .mega-menu {*/
+    /*visibility: visible;*/
+    /*top: 144px;*/
+    /*opacity: 1;*/
+    /*z-index: 9999;*/
+    /*transition: all .5s;*/
+/*}*/
+
+ul#nav li a {
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    padding: 15px;
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all .1s;
+}
+
+ul#nav li a:hover {
+    border-top: 3px solid #285582;
+    transition: all .1s;
+}
+ul#nav li.active a {
+    border-top: 3px solid #285582;
+}
+
+ul#nav li a i.fa {
+    font-size: 15px;
+}
+
+/*mega menu style*/
+
+.mega-menu {
+    position: fixed;
+    left: 0;
+    top: 144px;
+    padding-top: 50px;
+    background: #ffffff;
+    padding-bottom: 30px;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+}
+
+.mega-menu-title h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #285582;
+    font-weight: 400;
+}
+
+.mega-menu-content p {
+    color: #285582;
+    font-size: 14px;
+}
+
+.mega-menu-content ul {
+    text-align: left;
+    overflow: hidden;
+    padding: 0;
+}
+
+.mega-menu-content ul li {
+    display: block !important;
+}
+
+.mega-menu-content ul li a {
+    padding: 5px 0 !important;
+    text-align: left !important;
+    color: grey !important;
+}
+
+.mega-menu-content ul li a:hover {
+    border-bottom: none !important;
+}
+
+.mega-menu-add-title h3 {
+    font-size: 18px;
+    color: grey !important;
+}
+
+.mega-menu-add-content {
+    position: relative;
+    z-index: 1;
+}
+
+.overlay-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .8;
+    z-index: -1;
+}
+
+.mega-menu-add-content p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 65px;
+    margin-bottom: 0;
+}
+
+.mega-menu-add-content a {
+    color: #fff !important;
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    display: inline-block !important;
+    padding: 5px 15px !important;
+    margin: 15px 0;
+}
+
+.mega-menu-add-content a:hover {
+    border-color: #285582;
+}
+
+.widget-four {
+    border-left: 1px solid #ddd;
+    padding-left: 25px;
+}
+
+/**
+================================================================================
+ 2. main menu style end
+================================================================================
+*/
+/**
+================================================================================
+ 3. slider section start
+================================================================================
+*/
+.single-slide-item {
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+
+.single-slide-item {
+    position: relative;
+}
+
+.bg-overly {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.item-content {
+    display: table;
+    width: 100%;
+    height: 50vh;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.item-content h2 {
+    color: #26ABE2;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.item-content p {
+    color: #26ABE2;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 35px 0;
+    margin: 0;
+    line-height: 46px;
+}
+
+/**
+================================================================================
+ 3. slider section end
+================================================================================
+*/
+/**
+================================================================================
+ 4. search section start
+================================================================================
+*/
+.search-section {
+    background: #2e465e;
+    padding: 15px 25px;
+}
+.search-area .form-group{
+    margin-bottom: 0;
+}
+.search-area label {
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.search-area .form-control {
+    text-transform: capitalize;
+    border: none;
+}
+
+.search-hint p {
+    color: #fff;
+    padding-top: 7px;
+    text-transform: capitalize;
+}
+
+.search-hint p a {
+    color: #fff;
+}
+
+.search-hint p a:hover {
+    color: #f1f1f1;
+}
+
+/**
+================================================================================
+ 4. search section end
+================================================================================
+*/
+/**
+================================================================================
+ 5. popular procedure section start
+================================================================================
+*/
+.post-thumb {
+    position: relative;
+}
+
+.procedure-content {
+    position: relative;
+    box-shadow: 0 -2px 10px #999;
+}
+
+.procedure-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.procedure-title h4 {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+.procedure-cat {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 1;
+}
+
+.procedure-cat:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    content: "";
+    opacity: 0.3;
+}
+
+.procedure-cat ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.procedure-cat {
+    padding: 0 20px;
+}
+
+.procedure-cat ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    line-height: 28px;
+}
+
+.more-btn a {
+    text-align: center;
+    display: block;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+/**
+================================================================================
+ 5. popular procedure section end
+================================================================================
+*/
+/**
+================================================================================
+ 6. popular destination section start
+================================================================================
+*/
+.single-destination {
+    margin-bottom: 30px;
+}
+
+.post-thumb.destination img {
+    width: 100%;
+    height: 200px;
+}
+
+.destination-title-desc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.destination-title-desc ul li a {
+    color: #fff;
+}
+
+.destination-title-desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.destination-title-desc h4 {
+    color: #fff;
+    font-size: 24px;
+}
+
+/**
+================================================================================
+ 6. popular destination section end
+================================================================================
+*/
+/**
+================================================================================
+ 7. popular clinic section start
+================================================================================
+*/
+
+.clinic-content {
+    position: relative;
+}
+
+.clinic-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.clinic-title h4 {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 10px;
+}
+
+.single-clinic {
+    margin-bottom: 30px;
+}
+
+/**
+================================================================================
+ 7. popular clinic section end
+================================================================================
+*/
+
+/**
+================================================================================
+ 9. find clinic section start
+================================================================================
+*/
+.find-clinic-content h2 {
+    color: #fff;
+}
+
+.find-clinic-content p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.clinic-slider .owl-nav {
+  text-align: right;
+}
+.clinic-slider .owl-nav .owl-prev:focus{
+  outline: none;
+}
+.clinic-slider .owl-nav .owl-prev span {
+  background: #8CC741;
+  width: 35px;
+  height: 35px;
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  line-height: 28px;
+  margin-right: 3px;
+}
+.clinic-slider .owl-nav .owl-next:focus{
+  outline: none
+}
+.clinic-slider .owl-nav .owl-next span {
+  background: #27ABE2;
+  width: 35px;
+  height: 35px;
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  line-height: 28px;
+  margin-left: 3px;
+}
+/**
+================================================================================
+ 9. find clinic section end
+================================================================================
+*/
+
+/**
+================================================================================
+ 10. medigo help section start
+================================================================================
+*/
+
+.help-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.help-items ul li {
+    display: inline-block;
+    width: 18%;
+    border-right: 1px solid #ddd;
+    padding: 0 10px;
+}
+
+.help-items ul li i.fa {
+    font-size: 70px;
+    padding-bottom: 25px;
+    transition: all .5s;
+    color: #999;
+}
+
+.help-items ul li:last-child {
+    border: none;
+}
+
+.help-items ul li i.fa:hover {
+    color: var(--theme-color);
+    transition: all .5s;
+}
+
+.help-items ul li p {
+    color: #333;
+}
+
+/**
+================================================================================
+ 10. medigo help section end
+================================================================================
+*/
+/**
+================================================================================
+ 11. featured destination section end
+================================================================================
+*/
+
+.feature-destination-btn p {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-destination-btn p:after {
+    position: absolute;
+    content: "";
+    background: #3E4D5D;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+    border-radius: 2px;
+}
+
+.country img {
+    width: 60px;
+}
+
+.country p {
+    color: #fff;
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.country {
+    padding: 35px 0;
+}
+
+.featured-destination-content p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.featured-destination {
+    padding-bottom: 35px;
+}
+
+/**
+================================================================================
+ 11. featured destination section end
+================================================================================
+*/
+/**
+================================================================================
+ 12. our team section start
+================================================================================
+*/
+.member-avater img {
+    width: 60%;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.member-content h3 {
+    font-size: 18px;
+    color: var(--theme-color);
+}
+
+.member-content p {
+    color: #999;
+    font-size: 14px;
+}
+
+/**
+================================================================================
+ 12. our team section end
+================================================================================
+*/
+/**
+================================================================================
+ 13. back to top section start
+================================================================================
+*/
+.back_to_top i.fa {
+    color: #fff;
+    font-size: 30px;
+    background: var(--theme-color);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 9999;
+    box-shadow: 0 0 10px #ddd;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 37px;
+    border-radius: 50%;
+}
+
+i.fa.fa-arrow-up:hover {
+    cursor: pointer;
+}
+
+/**
+================================================================================
+ 13. back to top section end
+================================================================================
+*/
+/**
+================================================================================
+ 14. footer section start
+================================================================================
+*/
+
+.footer-logo img {
+    width: 71%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 45px;
+}
+
+.sign-up-form input#email {
+    width: 65%;
+    float: left;
+    text-transform: capitalize;
+    border: none;
+    border-radius: initial;
+    padding: 22px 10px;
+}
+
+.sign-up-form {
+    overflow: hidden;
+}
+
+button.sign-up-btn {
+    border: none;
+    background: #C65039;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-links ul li {
+    display: inline-block;
+}
+
+.social-links ul li a i.fa {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: #333;
+    line-height: 36px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid #999;
+    margin: 3px;
+    transition: all .5s;
+}
+
+.social-links {
+    padding-top: 25px;
+}
+
+.social-links ul li a i.fa:hover {
+    transform: rotateZ(360deg);
+    border-radius: initial;
+    background: var(--theme-color);
+}
+.widget-two, .widget-three, .widget-four {
+    padding: 50px 0;
+}
+.widget-one {
+    padding: 8px 0 50px 0;
+}
+.widget-two h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.widget-two p {
+    color: #fff;
+}
+
+.widget-three h2 {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services-links ul li a {
+    color: var(--theme-color);
+}
+
+.footer-content p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 15px 0;
+}
+.footer-content p span {
+    padding: 0 20px;
+}
+.privacy-menu p {
+    color: #fff;
+}
+
+.privacy-menu p a {
+    color: var(--theme-color);
+    display: inline-block;
+    padding: 10px;
+}
+
+/**
+================================================================================
+ 14. footer section end
+================================================================================
+*/
+/**
+===================================================================================
+===============================  FRONT PAGE STYLE END  ==========================
+===================================================================================
+ */
+/**
+===================================================================================
+===============================  OPHTHALMOLOGY PAGE STYLE START  ==========================
+===================================================================================
+ */
+/**
+================================================================================
+ 1. breadcrumb section start
+================================================================================
+*/
+.breadcrumb-section {
+    background: #ECEFF4;
+    padding: 15px 0;
+}
+
+.breadcrumb-area ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb-area ul li {
+    display: inline-block;
+}
+
+.breadcrumb-area ul li a {
+    color: #999;
+    text-transform: capitalize;
+}
+
+.breadcrumb-area ul li.active a {
+    color: var(--theme-color);
+}
+
+.header-cont h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #285582;
+    margin: 0;
+    line-height: 34px;
+    padding: 20px 0;
+}
+
+.header-cont ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-cont ul li {
+    display: inline-block;
+    padding-right: 10px;
+    color: #999;
+}
+
+.header-cont ul li i.fa {
+    color: var(--theme-color);
+    padding-right: 5px;
+}
+
+/**
+================================================================================
+ 1. breadcrumb section end
+================================================================================
+*/
+/**
+================================================================================
+ 2. content section end
+================================================================================
+*/
+.content-section {
+    background: #f5f5f5;
+    padding: 30px 0;
+}
+
+/*sidebar area start*/
+.left-sidebar {
+    background: #ffffff;
+    padding-bottom: 25px;
+}
+
+/*search area start*/
+.search-area {
+    background: #2f475f;
+    padding: 10px;
+}
+
+.medicare-btn.left-sidebar-search a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*search area end*/
+/*filter area start*/
+.filter-clinic-by-country {
+    padding: 0 20px;
+}
+
+.filter-clinic-by-country h5 {
+    padding: 15px 0;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-size: 14px;
+    color: #285582;
+    margin-bottom: 0;
+}
+
+.filter-clinic-by-country ul {
+    list-style: none;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.filter-clinic-by-country ul li a {
+    color: #333;
+}
+
+.filter-clinic-by-country ul li a span {
+    color: var(--theme-color);
+    font-size: 15px;
+}
+
+.filter-clinic-by-country ul li.special {
+    margin-left: -18px;
+}
+
+.filter-clinic-by-country ul li a i.fa {
+    color: var(--theme-color);
+    padding-right: 6px;
+}
+
+/*filter area end*/
+/*sidebar area end*/
+/*main content area start*/
+.ophthalmology-main-content-section {
+    background: #ffffff;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.content-bref {
+    padding: 10px 20px;
+}
+
+.content-bref h5 {
+    font-size: 18px;
+    color: #171717;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.content-bref p {
+    color: #171717;
+    font-size: 13px;
+}
+
+.single-item {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.ophthalmology-post-thumb {
+    width: 48%;
+    float: left;
+}
+
+.post-cont {
+    width: 50%;
+    float: right;
+}
+
+.post-title h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--theme-color);
+}
+
+.location p {
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.review ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.review ul li {
+    display: inline-block;
+    color: #E5E5E5;
+}
+
+.reviews {
+    padding: 5px 0;
+}
+
+.post-details ul {
+    padding: 0 15px;
+}
+
+.post-details ul li {
+    color: gray;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 3px 0;
+}
+
+.post-details p {
+    color: gray;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 3px 0;
+}
+
+.read-more-btn a {
+    color: var(--theme-color);
+    padding-left: 15px;
+}
+
+.medicare-btn.inquire a {
+    float: right;
+    margin: 0;
+}
+
+/*main content area end*/
+/**
+================================================================================
+ 2. content section end
+================================================================================
+*/
+/**
+===================================================================================
+===============================  OPHTHALMOLOGY PAGE STYLE END  ==========================
+===================================================================================
+ */
+/**
+===================================================================================
+===============================  HOSPITAL PAGE STYLE END  ==========================
+===================================================================================
+ */
+/*header content start*/
+.header-cont.hospital h1 {
+    padding: 20px 0 0 0;
+    margin-bottom: 0;
+}
+
+/*header content end*/
+/*hospital feat image slide section start*/
+.hospital-featured-images-section {
+    background: #eceff4;
+}
+.single-img{
+    height: 60vh;
+}
+.hospital-feat-img-slider .owl-nav .owl-prev:focus {
+    outline: none
+}
+
+.hospital-feat-img-slider .owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(-2%, -50%);
+}
+
+.hospital-feat-img-slider .owl-nav .owl-prev span {
+    font-size: 45px;
+    color: var(--theme-color)
+}
+
+.hospital-feat-img-slider .owl-nav .owl-next:focus {
+    outline: none
+}
+
+.hospital-feat-img-slider .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(-2%, -50%);
+}
+
+.hospital-feat-img-slider .owl-nav .owl-next span {
+    font-size: 45px;
+    color: var(--theme-color)
+}
+
+/*hospital feat image slide section end*/
+/*navigation control start*/
+
+.navigation-control ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-control ul li {
+    display: inline-block;
+}
+
+.navigation-control ul li a {
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px 15px;
+    color: gray;
+    text-align: center;
+}
+
+.navigation-control ul li a:hover {
+    border-bottom: 3px solid gray;
+}
+
+.navigation-control ul li a.active {
+    border-bottom: 3px solid gray;
+}
+
+/*sticky navigation control*/
+.navigation-control.sticky_navigation_control {
+    position: fixed;
+    left: 0;
+    top: 90px;
+    background: #2E4966;
+    width: 100%;
+    z-index: 999;
+}
+.hospital-right-sidebar.sticky_hospital_sidebar {
+    position: fixed;
+    top: 145px;
+    right: 50px;
+    width: 25%;
+    z-index: 999;
+}
+.hospital-right-sidebar.fixed_hospital_sidebar {
+    position: absolute;
+    bottom: 0;
+    right: -40px;
+    width: 115%;
+}
+.left-sidebar.sticky_opthalmology_sidebar {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    width: 25%;
+    z-index: 999;
+}
+.left-sidebar.fixed_opthalmology_sidebar {
+    position: absolute;
+    bottom: 0;
+    left: -40px;
+    width: 115%;
+}
+.navigation-control.sticky_navigation_control ul li a {
+    color: #fff;
+}
+
+.navigation-control.sticky_navigation_control ul {
+    padding-left: 10%;
+}
+
+/*navigation control end*/
+/*overview section start*/
+.hospital-page-section-title h2 {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #333;
+    padding-bottom: 25px;
+}
+
+.hospital-page-content p {
+    color: #3e3e3e;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.hospital-page-content ul {
+    list-style: none;
+    padding: 0 30px;
+}
+
+.hospital-page-content ul li {
+    color: #666a6e;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.hospital-page-content ul li i.fa {
+    color: #333;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+/*overview section end*/
+/*procedure section start*/
+span.arrow {
+    width: 0;
+    height: 0;
+    margin-right: 8px;
+    display: inline-block;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 6px solid #15304e;
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+.hospital-page-content.procedure ul li {
+    color: var(--theme-color);
+    font-size: 16px;
+    padding: 5px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.hospital-page-content.procedure ul li span {
+    color: gray;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+a.accordion-btn {
+    color: #fff;
+    background: var(--theme-color);
+    display: inline-block;
+    padding: 5px 15px;
+    float: right;
+    text-transform: capitalize;
+}
+
+/*procedure section end*/
+/*doctor section start*/
+.doctor-avatar {
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+
+.doctor-info {
+    width: 77%;
+    float: right;
+}
+
+.doctor-info h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.doctor-info ul li {
+    font-size: 14px;
+    padding: 5px 0;
+    color: #3e3e3e;
+}
+
+/*doctor section end*/
+
+/*hospital right sidebar start*/
+.inquiry-area {
+    background: #18334E;
+    padding: 20px;
+}
+
+.inquiry-area h1 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.dentistry {
+    background: #fff;
+    padding: 10px;
+}
+
+.dentistry h5 {
+    color: #7e99b4;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.dentistry a {
+    color: var(--theme-color);
+    font-size: 14px;
+}
+
+.medicare-btn.inquiry a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    background: #EB5046;
+    border-color: #8D302A;
+    padding: 15px 0;
+}
+
+.inquiry-area p img {
+    width: 15px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.inquiry-area p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.location-area {
+    background: #fff;
+}
+
+.location-area h5 {
+    color: #7e99b4;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 22px;
+    padding: 5px 20px;
+}
+
+.location-area h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: gray;
+    padding: 5px 20px;
+}
+
+.location-area p {
+    color: gray;
+    line-height: 22px;
+    padding: 5px 20px;
+}
+
+.g-mag iframe {
+    width: 100%;
+    height: 220px;
+    border: none;
+}
+
+/*hospital right sidebar end*/
+
+/*hospital footer section start*/
+
+.hospital-left-widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hospital-left-widget ul li {
+    display: inline-block;
+}
+
+.hospital-left-widget ul li a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.hospital-left-widget ul li a:hover {
+    color: var(--theme-color);
+}
+
+.hospital-left-widget p {
+    color: gray;
+    font-size: 13px;
+}
+
+/*hospital footer section end*/
+/**
+===================================================================================
+===============================  HOSPITAL PAGE STYLE END  ==========================
+===================================================================================
+ */
