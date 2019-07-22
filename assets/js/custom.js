@@ -120,7 +120,7 @@
         //sticky menu when scroll
         $(window).on('scroll', function () {
             var scroll = $(window).scrollTop();
-            if (scroll > 0) {
+            if (scroll > 100) {
                 $(".top-bar-section").addClass("sticky_top_section");
             } else {
                 $(".top-bar-section").removeClass("sticky_top_section");

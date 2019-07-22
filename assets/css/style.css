@@ -490,15 +490,16 @@ ul#nav li a i.fa {
 /*mega menu style*/
 
 .mega-menu {
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 144px;
+    top: 148px;
     padding-top: 50px;
     background: #ffffff;
     padding-bottom: 30px;
     width: 100%;
-    z-index: 9999;
+    z-index: 8888;
     display: none;
+    box-shadow: 0 5px 10px #ddd;
 }
 
 .mega-menu-title h3 {
