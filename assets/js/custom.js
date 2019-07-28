@@ -1,8 +1,14 @@
 (function ($) {
     $(document).ready(function () {
         /*megamenu click function*/
-        $('ul#nav li.dropdown-mega-menu').click(function () {
+        $('ul#nav li.dropdown-mega-menu').on('click', function () {
             $('.mega-menu').toggle();
+        });
+
+        /*active class*/
+        $('ul#nav li').on('click', function () {
+            $('ul#nav li.active').removeClass('active');
+            $(this).addClass('active');
         });
 
         /*top menu dropdown*/
