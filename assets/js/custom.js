@@ -1,8 +1,13 @@
 (function ($) {
     $(document).ready(function () {
         /*megamenu click function*/
-        $('ul#nav li.dropdown-mega-menu').on('click', function () {
-            $('.mega-menu').toggle();
+        $('ul#nav li.dropdown-mega-menu.cancer').on('click', function () {
+            $('.mega-menu.cancer').toggle();
+            $(".mega-menu.cardiology").hide();
+        });
+        $('ul#nav li.dropdown-mega-menu.cardiology').on('click', function () {
+            $('.mega-menu.cardiology').toggle();
+            $(".mega-menu.cancer").hide();
         });
 
         /*active class*/
